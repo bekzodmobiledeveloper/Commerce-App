@@ -259,7 +259,7 @@ class _HomeState extends State<Home> {
   }
 
   /// Page View
-  Widget view(int index, TextTheme theme, Size size) {
+/*  Widget view(int index, TextTheme theme, Size size) {
     return AnimatedBuilder(
         animation: _pageController,
         builder: (context, child) {
@@ -273,7 +273,7 @@ class _HomeState extends State<Home> {
             child: card(mainList[index], theme, size),
           );
         });
-  }
+  }*/
 
   /// Page view Cards
   Widget card(BaseModel data, TextTheme theme, Size size) {
